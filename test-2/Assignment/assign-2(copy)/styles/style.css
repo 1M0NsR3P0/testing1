@@ -1,0 +1,365 @@
+/* -------------------------------------------
+            All styles are awesome
+---------------------------------------- */
+/* Global styles: */
+* {
+    margin: 0;
+}
+
+body {
+    width: 100%;
+    margin: 0 auto;
+    background-color: rgba(255, 144, 14, 0.1);
+    font-family: 'Work Sans', sans-serif;
+    padding: 0;
+}
+
+.button-primary {
+    margin: 30px;
+    font-weight: 600;
+    font-size: 20px;
+    padding: 25px;
+    text-align: center;
+    background-color: #FF900E;
+    color: white;
+    border: 0;
+    border-radius: 8px;
+
+}
+
+/* header styles: */
+
+.nav-bar {
+    margin: 50px 200px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-logo h2 {
+    font-size: 45px;
+    font-weight: 700;
+    padding: 0;
+    margin-top: 5px;
+}
+
+.nav-links {
+    margin-top: 0;
+    display: flex;
+    list-style: none;
+    gap: 55px;
+    color: #424242;
+    line-height: 26px;
+}
+
+.nav-links a {
+    font-size: 18px;
+    font-weight: 500;
+    color: #131313;
+    text-decoration: none;
+
+}
+
+/* -------------------------------------
+        main section styles: 
+-----------------------------------------*/
+/* Top title section */
+.top-title {
+    text-align: center;
+    margin-top: 100px;
+    margin-bottom: 50px;
+}
+
+.top-title h1 {
+    font-size: 55px;
+    font-weight: 700;
+    margin: 0;
+    margin: 0 400px;
+}
+
+.top-title p {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #727272;
+    margin: 0 250px;
+}
+
+/* top banner style */
+.top-banner {
+    text-align: center;
+    margin: 50px 220px 50px 180px;
+
+}
+
+.img-container img {
+    height: 600px;
+    width: 1000px;
+}
+
+/* feature sectoin */
+.feature-container {
+    display: flex;
+    gap: 70px;
+    margin: 50px 220px;
+    align-items: center;
+    margin-bottom: 130px;
+}
+
+.feature-pic-container {
+    height: 400px;
+    width: 400px;
+}
+
+.feature-pics {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.feature-pics img {
+    height: 220px;
+    width: 220px;
+}
+
+.feature-info {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.feature-info h3 {
+    font-weight: 500;
+    font-size: 45px;
+    color: #727272;
+    margin-bottom: 30px;
+}
+
+.feature-info p {
+    font-weight: 400;
+    font-size: 16px;
+    color: #727272;
+    margin-top: 0;
+
+}
+
+#black {
+    color: #131313;
+    font-weight: 700;
+}
+
+#orange {
+    font-weight: 700;
+    color: #FF900E;
+}
+
+#btn {
+    margin-top: 15px;
+    margin-left: 0;
+}
+
+/* lovely features style */
+
+.lovely-features-container {
+    display: flex;
+    gap: 8px;
+    flex-wrap: nowrap;
+    margin: 50px 180px;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.enjoyable-features {
+    width: 1200px;
+    height: 750px;
+}
+
+.enjoyable-container {
+    background-color: whitesmoke;
+    margin-bottom: 15px;
+    box-shadow: rgba(168, 166, 166, 0.253) 5px 5px 10px;
+}
+
+.enjoyable-container:hover {
+    /* box-shadow: gray 2px 2px 5px 5px ; */
+}
+
+
+.lovly-features-list {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    background-color: none;
+    box-shadow: rgba(168, 166, 166, 0.253) 5px 5px 10px;
+}
+
+.enjoyable-container h3 {
+    font-weight: 700;
+    font-size: 45px;
+    color: #131313;
+    padding: 30px 40px 30px 30px;
+}
+
+.enjoyable-container p {
+    font-weight: 400;
+    font-size: 16px;
+    color: #727272;
+    padding: 30px 40px 30px 30px;
+}
+
+.mini-container {
+    background-color: whitesmoke;
+    padding: 30px 40px 30px 30px;
+}
+
+.architect img {
+    height: 980px;
+    width: 500px;
+    box-shadow: rgba(168, 166, 166, 0.253) 5px 5px 10px;
+}
+
+.experience {
+    margin-top: 0;
+    background-color: #FF900E;
+    width: 230px;
+    height: 90px;
+    padding: 30px;
+    position: relative;
+    bottom: 100px;
+    align-items: center;
+    color: whitesmoke;
+    box-shadow: rgba(168, 166, 166, 0.253) 5px 5px 10px;
+}
+
+.experience:hover {
+    box-shadow: gray 2px 2px 5px 5px;
+
+}
+
+.experience h2 {
+    font-size: 45px;
+    text-align: center;
+    line-height: 40px;
+    font-weight: 900;
+}
+
+.experience span {
+    font-size: 20px;
+    font-weight: 400;
+}
+
+/* Some fact sectoin */
+.fact-title {
+    margin: 0 190px;
+}
+
+.fact-title h3 {
+    font-weight: 700;
+    font-size: 35px;
+    color: #131313;
+}
+
+.fact-title p {
+    font-weight: 400;
+    font-size: 16px;
+    color: #727272;
+    width: 540px;
+
+}
+
+.frame-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin: 80px 220px 150px 220px;
+    padding-top: 0;
+    gap: 120px;
+}
+
+.frames {
+    border: 1px solid #FF900E;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 150px;
+    width: 280px;
+
+}
+
+.divva {
+    display: flex;
+    flex-direction: column;
+    /* gap: 5px; */
+    justify-content: center;
+    align-items: center;
+}
+
+.frames img {
+    width: 45px;
+    height: 45px;
+    padding: 4px;
+}
+
+.frames h4 {
+    font-weight: 600;
+    font-size: 30px;
+    color: #424242;
+}
+
+.frames p {
+    font-weight: 400;
+    font-size: 14px;
+    color: #5c5b5b;
+}
+
+/* sponsor styles */
+.sponsor-container {
+    text-align: center;
+    margin: 0px 200px 0px 180px;
+}
+
+.caption h2 {
+    font-weight: 800;
+    font-size: 30px;
+    color: #131313;
+    margin-bottom: 20px;
+}
+
+.caption p {
+    padding: 0 220px;
+    font-weight: 400;
+    font-size: 14px;
+    text-align: center;
+    color: #727272;
+}
+/* sponsor logos */
+
+.sponsors {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    display: flex;
+    flex-direction: row;
+    gap: 120px;
+}
+
+.spn img {
+    height: 40px;
+    width: 100px;
+    /* opacity: 70%; */
+    filter: grayscale(100%);
+    margin-bottom: 100px;
+}
+
+.spn:hover img {
+    filter: brightness(100%);
+}
+
+/* footer styles: */
+.footer-container{
+    background-color: #f8e1c6d2;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    margin: 120px 180px;
+    height: 80px;
+}
