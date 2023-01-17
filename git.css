@@ -5,5 +5,5 @@ img{
 }
 body{
     background-color: aqua;
-    background-image: url(../Desktop/1.png);
+    background-image: url('../Desktop/1.png');
 }
